@@ -22,7 +22,6 @@
       "lint": "eslint --fix cypress/**/*.js app/assets/js/scripts.js",
     "lint:yaml": "yamllint '*.yml' 'basic/*.yml' .buildkite/pipeline.yml .semaphore/semaphore.yml '.github/workflows/*.yml'"
     },
-
     "devDependencies": {
       "@bahmutov/print-env": "1.2.0",
       "colon-names": "1.0.0",
