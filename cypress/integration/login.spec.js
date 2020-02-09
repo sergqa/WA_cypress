@@ -1,4 +1,4 @@
-import loginPageFactory from '../../../support/LoginPage';
+import loginPageFactory from '../support/LoginPage';
 
 describe('Login', () => {
 
