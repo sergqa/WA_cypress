@@ -4,10 +4,11 @@
     "description": "",
     "license": "MIT",
     "scripts": {
-
       "start": "serve --listen ${PORT:-8080}",
-
       "e2e": "cypress run",
+      "e2e:chrome": "cypress run --browser chrome",
+      "e2e:record": "cypress run --record",
+      "e2e:record:parallel": "cypress run --record --parallel",
       "cy:verify": "cypress verify",
       "cy:version": "cypress version",
       "cy:run": "cypress run",
