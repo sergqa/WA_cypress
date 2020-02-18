@@ -1,5 +1,5 @@
 export default url => ({
-    
+
     //LOCATORS
     elements: {
         signUpButton: ".ShadowButton-kPGGiw > .ButtonCircle-fOFuwx",
@@ -8,8 +8,7 @@ export default url => ({
         password: ":nth-child(2) > .styles__Input-emtRGF",
         submitButton: '.ShadowButton-kPGGiw > .ButtonCircle-fOFuwx',
     },
-
-    //Regular LOGIN
+    //Regular LOGINN
     login(username = 'login', password = 'password') {
     cy.get(this.elements.signUpButton).should('have.text', 'Sign up');
     cy.get(this.elements.signInButton).should('have.text', 'Sign in').click();
